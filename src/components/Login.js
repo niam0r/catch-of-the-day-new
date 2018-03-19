@@ -10,6 +10,18 @@ const Login = () => {
     >
       Log In With Github
     </button>
+    <button
+      className="twitter"
+      onClick={() => this.props.authenticate("twitter")}
+    >
+      Log In With twitter
+    </button>
+    <button
+      className="facebook"
+      onClick={() => this.props.authenticate("facebook")}
+    >
+      Log In With facebook
+    </button>
   </nav>
 };
 
