@@ -14,15 +14,15 @@ const Login = props => {
       </button>
       <button
         className="twitter"
-        onClick={() => props.authenticate("twitter")}
+        onClick={() => props.authenticate("Twitter")}
       >
-        Log In With twitter
+        Log In With Twitter
       </button>
       <button
         className="facebook"
-        onClick={() => props.authenticate("facebook")}
+        onClick={() => props.authenticate("Facebook")}
       >
-        Log In With facebook
+        Log In With Facebook
       </button>
     </nav>
   );
